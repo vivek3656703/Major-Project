@@ -6,3 +6,5 @@ ip = st.text_input('Enter your sentiment')
 op = model.predict([ip])
 if st.button('Predict'):
   st.title(op[0])
+  
+   
