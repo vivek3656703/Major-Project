@@ -1,6 +1,6 @@
 import streamlit as st
 import joblib
-model = joblib.load('Sentiment_Analysis02')
+model = joblib.load('Sentiment_Analysis03')
 st.title('Sentiment_Analysis Check')
 ip = st.text_input('Enter your sentiment')
 op = model.predict([ip])
